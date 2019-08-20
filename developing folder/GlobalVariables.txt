@@ -1,0 +1,3 @@
+mounthlyIncome: 123
+emergencyMoney: 45
+weeklyBudget: 23
