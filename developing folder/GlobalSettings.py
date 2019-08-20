@@ -8,15 +8,15 @@ class DailyBudget ():
 class GlobalSetting ():
 
     def __init__ (self):
-        self.mounthlyIncome = 500000
+        self.monthlyIncome = 500000
         self.emergencyMoney = 0   
         self.weeklyBudget = 100000 
         self.dailyBudgetList = list()
 
     def WriteGlobal (self):
         f = open("GlobalVariables.txt", 'w')
-        self.mounthlyIncome = input("월수입을 입력하세요: ")
-        f.write("mounthlyIncome: " + str(self.mounthlyIncome)+"\n")
+        self.monthlyIncome = input("월수입을 입력하세요: ")
+        f.write("monthlyIncome: " + str(self.monthlyIncome)+"\n")
         self.emergencyMoney = input("보유 비상금을 입력하세요: ")
         f.write("emergencyMoney: "+ str(self.emergencyMoney)+"\n")
         self.weeklyBudget = input ("주간 예산을 입력하세요: ")
@@ -26,8 +26,8 @@ class GlobalSetting ():
     def ReadGlobal (self):
         f = open ("GlobalVariables.txt", 'r')
         substring = f.readline()
-        self.mounthlyIncome = int (substring[16:])
-        print(self.mounthlyIncome)
+        self.monthlyIncome = int (substring[16:])
+        print(self.monthlyIncome)
 
         substring = f.readline()
         self.emergencyMoney = int (substring[16:])
@@ -61,7 +61,7 @@ class GlobalSetting ():
         for dailyBudget in self.dailyBudgetList:
             print(dailyBudget.name + str(dailyBudget.budget))
 
-"""
+
 test = GlobalSetting ()
 
 test.WriteGlobal()
@@ -70,7 +70,7 @@ test.ReadGlobal()
 test.WriteDailyBudget ("실험", "2000")
 test.UpdateDailyBudget ()
 test.ReadDailyBudget ()
-"""
+
 
     
 
