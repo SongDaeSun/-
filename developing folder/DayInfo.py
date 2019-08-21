@@ -17,6 +17,8 @@ class DayInfo():
         else:
             self.budgetLimitation = 0
 
+        self.currentBudget = self.budgetLimitation - self.totalConsumePrice
+
     def weekday(self):
         return calendar.weekday(self.year, self.month, self.day)
 
@@ -28,7 +30,8 @@ class DayInfo():
     def AddConsume (self, name, price):
         self.consumeList.append(ConsumeTag(name, price))
         self.totalConsumePrice += price
-        if self.budgetLimitation - self.totalConsumePrice < 0:
+        self.currentBudget = self.budgetLimitation - self.totalConsumePrice
+        if self.currentBudget < 0:
             self.isUnderLimitation = False
 
 """
