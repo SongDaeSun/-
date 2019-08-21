@@ -3,7 +3,10 @@ class DailyBudget ():
         self.name = name
         self.budget = budget
 
-
+class ConsumeTag():
+    def __init__ (self, name, price):
+        self.name = name
+        self.price = price
 
 class GlobalSetting ():
 
@@ -61,7 +64,7 @@ class GlobalSetting ():
         for dailyBudget in self.dailyBudgetList:
             print(dailyBudget.name + str(dailyBudget.budget))
 
-
+"""
 test = GlobalSetting ()
 
 test.WriteGlobal()
@@ -70,7 +73,4 @@ test.ReadGlobal()
 test.WriteDailyBudget ("실험", "2000")
 test.UpdateDailyBudget ()
 test.ReadDailyBudget ()
-
-
-    
-
+"""
