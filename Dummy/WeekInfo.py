@@ -1,7 +1,7 @@
 import DayInfo
 
 class WeekInfo ():
-    def __init__ (self, year, month, startingDay):
+    def __init__ (self, year, month, startingDay, assignedBudget, affiliatedMonth = None):
         self.year = year
         self.month = month
         self.days = list()
@@ -9,6 +9,10 @@ class WeekInfo ():
         for i in range(0,7):
             self.days.append(DayInfo.DayInfo(self.year, self.month, startingDay))
             startingDay += 1
+
+        self.budget = assignedBudget
+
+    def 
 
 """
 test = WeekInfo(2019, 8, 4)

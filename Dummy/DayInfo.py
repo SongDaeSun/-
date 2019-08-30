@@ -3,19 +3,17 @@ import calendar
 from GlobalSettings import DailyBudget, ConsumeTag
 
 class DayInfo():
-    def __init__(self, year, month, day, budget = None):
+    def __init__(self, year, month, day, affiliatedWeek = None):
         self.year = year
         self.month = month
         self.day = day
-        self.budget = budget
+        self.affiliatedWeek = affiliatedWeek
+
+        self.budget = None
         self.isUnderLimitation = True
         self.consumeList = list()
         self.totalConsumePrice = 0
-
-        if budget:
-            self.budgetLimitation = budget.budget
-        else:
-            self.budgetLimitation = 0
+        self.budgetLimitation = 0
 
         self.currentBudget = self.budgetLimitation - self.totalConsumePrice
 
@@ -26,6 +24,7 @@ class DayInfo():
         self.budget = budget
         #print(budget.budget)
         self.budgetLimitation = self.budget.budget
+        self.affiliatedWeek.budget - self.budget.budget
 
     def AddConsume (self, name, price):
         self.consumeList.append(ConsumeTag(name, price))

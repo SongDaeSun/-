@@ -1,0 +1,10 @@
+C:\SongDaeSun\Programming\The-housekeeping-book-CAME-FROM-THE-HELL\HouseKeepingBook\HouseKeepingBook\bin\Debug\HouseKeepingBook.exe.config
+C:\SongDaeSun\Programming\The-housekeeping-book-CAME-FROM-THE-HELL\HouseKeepingBook\HouseKeepingBook\bin\Debug\HouseKeepingBook.exe
+C:\SongDaeSun\Programming\The-housekeeping-book-CAME-FROM-THE-HELL\HouseKeepingBook\HouseKeepingBook\bin\Debug\HouseKeepingBook.pdb
+C:\SongDaeSun\Programming\The-housekeeping-book-CAME-FROM-THE-HELL\HouseKeepingBook\HouseKeepingBook\obj\Debug\HouseKeepingBook.csprojAssemblyReference.cache
+C:\SongDaeSun\Programming\The-housekeeping-book-CAME-FROM-THE-HELL\HouseKeepingBook\HouseKeepingBook\obj\Debug\HouseKeepingBook.MainScreen.resources
+C:\SongDaeSun\Programming\The-housekeeping-book-CAME-FROM-THE-HELL\HouseKeepingBook\HouseKeepingBook\obj\Debug\HouseKeepingBook.Properties.Resources.resources
+C:\SongDaeSun\Programming\The-housekeeping-book-CAME-FROM-THE-HELL\HouseKeepingBook\HouseKeepingBook\obj\Debug\HouseKeepingBook.csproj.GenerateResource.cache
+C:\SongDaeSun\Programming\The-housekeeping-book-CAME-FROM-THE-HELL\HouseKeepingBook\HouseKeepingBook\obj\Debug\HouseKeepingBook.csproj.CoreCompileInputs.cache
+C:\SongDaeSun\Programming\The-housekeeping-book-CAME-FROM-THE-HELL\HouseKeepingBook\HouseKeepingBook\obj\Debug\HouseKeepingBook.exe
+C:\SongDaeSun\Programming\The-housekeeping-book-CAME-FROM-THE-HELL\HouseKeepingBook\HouseKeepingBook\obj\Debug\HouseKeepingBook.pdb
