@@ -1,3 +1,0 @@
-monthlyIncome: 123
-emergencyMoney: 123
-weeklyBudget: 123
